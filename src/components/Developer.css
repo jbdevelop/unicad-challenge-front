@@ -1,0 +1,25 @@
+.topbar__dev {
+  border: 0px solid green;
+  font-size: 12px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+}
+
+.topbar__dev-title {
+  font-size: 12px;
+  color: #333;
+}
+
+.topbar__dev-socials {
+  border: 0px solid black;
+  margin: 5px 0;
+}
+
+.topbar__dev-socials a {
+  margin: 10px;
+  font-size: 20px;
+  color: #333;
+}
