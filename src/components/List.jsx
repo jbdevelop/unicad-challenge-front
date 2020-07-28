@@ -14,7 +14,7 @@ export default function Menu() {
 
 
   async function handleGetList() {
-    const data = await axios.get('http://jbdev.com.br/list')
+    const data = await axios.get('https://jbdev.com.br/list')
 
     
     console.log(data.data)

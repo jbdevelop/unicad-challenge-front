@@ -10,7 +10,7 @@ export default function Menu() {
   async function handleSubmit(event) {
     event.preventDefault()    
 
-    await axios.post('http://jbdev.com.br/create', values)
+    await axios.post('https://jbdev.com.br/create', values)
   }
 
   function handleChange(event) {
