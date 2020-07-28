@@ -14,16 +14,16 @@ function App() {
         <Topbar />                
         
         <div className="container">
-        <Switch>
-          <Route exact path="/">            
-          </Route>
-          <Route path="/create">
-            <Register />
-          </Route>
-          <Route path="/list">
-            <List />
-          </Route>
-        </Switch>
+          <Switch>
+            <Route exact path="/">            
+            </Route>
+            <Route path="/create">
+              <Register />
+            </Route>
+            <Route path="/list">
+              <List />
+            </Route>
+          </Switch>
         </div>
 
       </BrowserRouter>
