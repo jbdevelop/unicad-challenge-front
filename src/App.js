@@ -15,8 +15,7 @@ function App() {
         
         <div className="container">
         <Switch>
-          <Route exact path="/">
-            <div>Home</div>
+          <Route exact path="/">            
           </Route>
           <Route path="/create">
             <Register />

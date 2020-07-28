@@ -1,16 +1,20 @@
 
 import React, { useState } from 'react'
 import axios from 'axios';
+import { useHistory } from 'react-router-dom'
 
 import "./Register.css"
 
 export default function Menu() {
   const [values, setValues] = useState({})
+  const history = useHistory()
 
   async function handleSubmit(event) {
     event.preventDefault()    
 
     await axios.post('https://jbdev.com.br/create', values)
+
+    history.push('/list')
   }
 
   function handleChange(event) {
@@ -23,7 +27,7 @@ export default function Menu() {
     <> 
       <div className="register">
         <div className="register__title">
-          <i className="fa fa-plus-circle"></i>Cadastrar Entrega
+          Cadastrar Entrega
         </div>
         
         <div className="register__form">          

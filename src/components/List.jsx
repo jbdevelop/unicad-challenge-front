@@ -25,7 +25,7 @@ export default function Menu() {
     <>      
       <div className="list">
         <div className="list__title">
-          <i className="fa fa-list"></i>Lista de Entregas
+          Lista de Entregas
         </div>
                 
           <table className="list__table">
@@ -47,7 +47,7 @@ export default function Menu() {
                   <td>{item.deliveryDate}</td>
                   <td>{item.startPoint}</td>
                   <td>{item.endPoint}</td>
-                  <td><i className="fa fa-map-marker"></i><span>Ver Trajeto</span></td>
+                  <td><span>Ver Trajeto</span></td>
                 </tr>
               )) 
             }
